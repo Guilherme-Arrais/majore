@@ -11,7 +11,7 @@ body{
 }
 main{
     position: absolute;
-    top: 610px;
+    top: 490px;
     width: 100vw;
     height: auto;
     text-align: center;
@@ -45,7 +45,7 @@ table#menu{
     width: 100vw;
     height: 60px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 0.7em;
     background-color: #d8b103;
     border-radius: 2%;
 }
@@ -86,9 +86,9 @@ a#instagram{
       .slide {
         position: absolute;
         top: 56px;
-        left: 7.1%;
-        width: 86vw;
-        height: 520px;
+        left: 11%;
+        width: 75vw;
+        height: 400px;
         margin: 20px auto;
         display: grid;
         border-radius: 8%;
@@ -205,69 +205,117 @@ a#instagram{
             height:320px;
         }
 
-a#titulocafé{
-    font-size: 3em;
-}
-a#tituloalmoço{
-    position: absolute;
-    left: 220%;
-    top: 490px;
-    font-size: 3em;
-}
-a#titulopizza{
-    position: absolute;
-    left: 27%;
-    top: 1130px;
-    font-size: 3em;
-}
+
 .font{
     font-size: 1.8em;
 }
+td#delivery{
+    position: absolute;
+    left: 38%;
+    top: 40%;
+   }
+   td#sobrenos{
+    position: absolute;
+    left: 57%;
+    top: 40%;
+   }
+   td#nossoespaço{
+    position: absolute;
+    left: 81%;
+    top: 40%;
+   }
+ a#whatsapp{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+ }
+ div#contato{
+    left: 78%;
+    font-size: 0.6em;
+    text-align: center;
+}
 p#descriçaocafé{
-    left: 170%;
-    top: 550px;
+    position: absolute;
+    font-size: 1.6em;
+    left: 7%;
+    top:-4%;
+    width: 80vw;
     text-align: justify;
+}
+a#titulocafé{
+    position:absolute;
+font-size: 2em;
+white-space: nowrap;
+left: 30%;
+top: -12%;
+text-align: justify;
+}
+a#tituloalmoço{
+    position: absolute;
+    left: 35%;
+    top: 640px;
+    font-size: 2em;
+}
+a#titulopizza{
+    position: absolute;
+    left: 30%;
+    text-align: justify;
+    top: 1410px;
+    font-size: 2em;
 }
 p#descriçaoalmoço{
     position: absolute;
-    left: 189%;
-    top: 550px;
-    width: 400px;
+    font-size:1.6em ;
+    left: 1%;
+    top: 680px;
+    width: 80vw;
     height: 480px;
     text-align: justify;
 }
 p#descriçaopizza{
     position: absolute;
-    width: 400px;
+    font-size:1.6em ;
+    left: -2%;
+    top: 1450px;
+    width: 80vw;
     height: 480px;
-   left: -5%;
-    top: 1200px;
-    text-align: justify;}
-
-
+    text-align: justify;
+}
 img#cafemanhaprincipal{
     position: absolute;
-    top: 160px;
-    width: 400px;
-    height: 480px;
-    left: 65%;
+    top: 370px;
+    width: 320px;
+    height: 400px;
+    left: 17%;
     border-radius: 2%;
 }
 img#almoço{
     position: absolute;
-    top: 650px;
-    width: 400px;
-    height: 500px;
-    left: 4%;
+    top: 1080px;
+    width: 360px;
+    height:420px;
+    left: 15%;
     border-radius: 2%;
 }
 img#pizza{
     position: absolute;
-    top: 1150px;
-    width: 400px;
-    height: 500px;
-    left: 64%;
+    top: 1730px;
+    width: 360px;
+    height: 420px;
+    left: 15%;
     border-radius: 2%;
+}
+div#Fundodecardapio{
+    position: absolute;
+    width: 98vw;
+    left: 1%;
+    height: 2180px;
+    border-radius: 3%;
+    background-image: linear-gradient(to top, white, #e9e6e6);
+}
+footer{
+    position: absolute;
+    top: 2680px;
 }
 
 ::-webkit-scrollbar{
@@ -281,8 +329,11 @@ img#pizza{
 
 
 
-@media screen and (min-width: 992px)and (max-width: 1200px) {
-    
+@media screen and (min-width: 992px)and (max-width: 1400px) {
+    html,body{
+        height: 100vh;
+        width: 100vw;
+    }
     table#menu{
       
         font-size: 1em;
@@ -543,33 +594,17 @@ img#pizza{
         }
 
 
-        @media screen and (min-width: 300px)and (max-width: 768px) {
+        @media screen and (min-width: 600px)and (max-width: 768px) {
             *{
                 margin: 0%;
                 padding: 0%; 
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
-            table#menu{
-                font-size: 0.7em;
-               }
+           
                
-               .efeitobotao:hover{
-                background-color: #584e22;
-               }
-               .slide{
-                position: absolute;
-                left: 11%;
-                width: 75vw;
-                height: 400px;
-               }
-               main{
-                position: absolute;
-                top: 490px;
-                width: 100vw;
-                height: auto;
-                text-align: center;
+        
                
-                }
+    
                
                td#delivery{
                 position: absolute;
