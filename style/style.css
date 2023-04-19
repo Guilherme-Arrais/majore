@@ -543,7 +543,7 @@ img#pizza{
         }
 
 
-        @media screen and (min-width: 600px)and (max-width: 768px) {
+        @media screen and (min-width: 300px)and (max-width: 768px) {
             *{
                 margin: 0%;
                 padding: 0%; 
