@@ -5,8 +5,7 @@
 }
 
 body{
-    position: absolute;
-    width: 100vw;
+    width: 99vw;
     background-color: rgb(82, 82, 82);
 
     
@@ -209,7 +208,7 @@ a#instagram{
 
 
 .font{
-    font-size: 1.8em;
+    font-size: 1em;
 }
 td#delivery{
     position: absolute;
@@ -286,24 +285,24 @@ p#descriçaopizza{
 img#cafemanhaprincipal{
     position: absolute;
     top: 370px;
-    width: 320px;
-    height: 400px;
+    width: 300px;
+    height: 380px;
     left: 10%;
     border-radius: 2%;
 }
 img#almoço{
     position: absolute;
     top: 1080px;
-    width: 360px;
-    height:420px;
+    width: 300px;
+    height:380px;
     left: 10%;
     border-radius: 2%;
 }
 img#pizza{
     position: absolute;
     top: 1730px;
-    width: 360px;
-    height: 420px;
+    width: 300px;
+    height: 380px;
     left: 10%;
     border-radius: 2%;
 }
@@ -387,8 +386,10 @@ footer{
         text-align: center;
     }
     p#descriçaocafé{
-        left: 170%;
-        top: 350%;
+        left: 15%;
+        top: 20%;
+        width: 400px;
+        height: 480px;
         text-align: justify;
     }
     a#tituloalmoço{
