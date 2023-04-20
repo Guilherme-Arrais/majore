@@ -47,7 +47,7 @@ table#menu{
     width: 100vw;
     height: 60px;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 0.5em;
     background-color: #d8b103;
     border-radius: 2%;
 }
@@ -67,15 +67,15 @@ a#instagram{
     position: absolute;
     top: 13px;
     left: 3%;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
  }
  a#whatsapp{
     position: absolute;
     top: 10px;
     left: 8%;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
  }
  a:hover{
     text-decoration: underline;/*Adiciona linha debaixo dos links*/
@@ -331,7 +331,7 @@ footer{
 
 
 
-@media screen and (min-width: 992px)and (max-width: 1400px) {
+@media screen and (min-width: 992px)and (max-width: 1800px) {
     html,body{
         height: 100vh;
         width: 100vw;
