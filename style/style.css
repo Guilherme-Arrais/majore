@@ -4,9 +4,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+body, html{
     background-color: rgb(82, 82, 82);
-
+width: 100vw;
+height: 100vh;
     
 }
 main{
@@ -164,29 +165,41 @@ a#instagram{
         div#cafedamanha{
             position: absolute;
             top: 150px;
-            width: 400px;
+            width: 300px;
              height: 480px;
-              left: 6%;
              border-radius: 2%;
-             
+             left: 50%;
+         transform: translate(-50%);
+                
+        }
+        a#titulocafé{
+    
+        font-size: 1.5em;
+        white-space: nowrap;
+        left: 50%;
+        top: -20%;
+        transform: translate(-50%,15%);
+        text-align: justify;
         }
 
         div#almoço{
             position: absolute;
-            top: 161px;
-            width: 400px;
-             height: 480px;
-              left: 10%;
-             border-radius: 2%;
-             text-align: center;
+            top: 900px;
+            width: 300px;
+            height: 480px;
+            border-radius: 2%;
+            left: 50%;
+            transform: translate(-50%);
+            
         }
         div#pizza{
             position: absolute;
             top: 91px;
-            width: 400px;
+            width: 300px;
              height: 480px;
-              left: 10%;
              border-radius: 2%;
+             left: 50%;
+         transform: translate(-50%);
              text-align: center;
         }
         div#Fundodecardapio{
@@ -235,11 +248,7 @@ td#delivery{
     text-align: center;
 }
 p#descriçaocafé{
-    position: absolute;
-    left: 50%;
-transform: translate(-50%);
-    top:-4%;
-    width: 80vw;
+   
     text-align: justify;
 }
 a#titulocafé{
@@ -255,7 +264,7 @@ a#tituloalmoço{
     position: absolute;
     left: 50%;
 transform: translate(-50%);
-top: 130%;
+top:-80px;
     font-size: 1.5em;
 }
 a#titulopizza{
@@ -263,22 +272,17 @@ a#titulopizza{
     left: 50%;
 transform: translate(-50%);
     text-align: justify;
-    top: 1410px;
+    top: 1380px;
     font-size: 1.5em;
 }
 p#descriçaoalmoço{
-    position: absolute;
     
-    left: 50%;
-transform: translate(-50%);
     top: 680px;
-    width: 80vw;
-    height: 480px;
+    
     text-align: justify;
 }
 p#descriçaopizza{
     position: absolute;
-    
     left: 50%;
 transform: translate(-50%);
     top: 1450px;
@@ -293,6 +297,7 @@ img#cafemanhaprincipal{
     height: 350px;
     left: 50%;
 transform: translate(-50%);
+    text-align: center;
     border-radius: 2%;
 }
 img#almoço{
