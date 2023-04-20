@@ -207,7 +207,7 @@ a#instagram{
 
 
 .font{
-    font-size: 0.7em;
+    font-size: 1em;
 }
 td#delivery{
     position: absolute;
@@ -236,37 +236,41 @@ td#delivery{
 }
 p#descriçaocafé{
     position: absolute;
-    font-size: 1.6em;
-    left: 7%;
+    left: 50%;
+transform: translate(-50%);
     top:-4%;
     width: 80vw;
     text-align: justify;
 }
 a#titulocafé{
     position:absolute;
-font-size: 2em;
+font-size: 1.5em;
 white-space: nowrap;
-left: 25%;
-top: -12%;
+left: 50%;
+top: -20%;
+transform: translate(-50%,15%);
 text-align: justify;
 }
 a#tituloalmoço{
     position: absolute;
-    left: 35%;
-    top: 640px;
-    font-size: 2em;
+    left: 50%;
+transform: translate(-50%);
+top: 130%;
+    font-size: 1.5em;
 }
 a#titulopizza{
     position: absolute;
-    left: 30%;
+    left: 50%;
+transform: translate(-50%);
     text-align: justify;
     top: 1410px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 p#descriçaoalmoço{
     position: absolute;
-    font-size:1.6em ;
-    left: 1%;
+    
+    left: 50%;
+transform: translate(-50%);
     top: 680px;
     width: 80vw;
     height: 480px;
@@ -274,8 +278,9 @@ p#descriçaoalmoço{
 }
 p#descriçaopizza{
     position: absolute;
-    font-size:1.6em ;
-    left: -2%;
+    
+    left: 50%;
+transform: translate(-50%);
     top: 1450px;
     width: 80vw;
     height: 480px;
@@ -284,25 +289,28 @@ p#descriçaopizza{
 img#cafemanhaprincipal{
     position: absolute;
     top: 370px;
-    width: 300px;
-    height: 380px;
-    left: 10%;
+    width: 270px;
+    height: 350px;
+    left: 50%;
+transform: translate(-50%);
     border-radius: 2%;
 }
 img#almoço{
     position: absolute;
     top: 1080px;
-    width: 300px;
-    height:380px;
-    left: 10%;
+    width: 270px;
+    height: 350px;
+    left: 50%;
+transform: translate(-50%);
     border-radius: 2%;
 }
 img#pizza{
     position: absolute;
     top: 1730px;
-    width: 300px;
-    height: 380px;
-    left: 10%;
+    width: 270px;
+    height: 350px;
+    left: 50%;
+transform: translate(-50%);
     border-radius: 2%;
 }
 div#Fundodecardapio{
