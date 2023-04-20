@@ -5,6 +5,8 @@
 }
 
 body{
+    position: absolute;
+    width: 100vw;
     background-color: rgb(82, 82, 82);
 
     
@@ -286,7 +288,7 @@ img#cafemanhaprincipal{
     top: 370px;
     width: 320px;
     height: 400px;
-    left: 17%;
+    left: 10%;
     border-radius: 2%;
 }
 img#almoço{
@@ -294,7 +296,7 @@ img#almoço{
     top: 1080px;
     width: 360px;
     height:420px;
-    left: 15%;
+    left: 10%;
     border-radius: 2%;
 }
 img#pizza{
@@ -302,7 +304,7 @@ img#pizza{
     top: 1730px;
     width: 360px;
     height: 420px;
-    left: 15%;
+    left: 10%;
     border-radius: 2%;
 }
 div#Fundodecardapio{
