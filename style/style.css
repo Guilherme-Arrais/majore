@@ -475,139 +475,7 @@ footer{
     }
     }
  
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-        table#menu{
-            font-size: 0.9em;
-           }
-           
-           .efeitobotao:hover{
-            background-color: #584e22;
-           }
-           .slide{
-            position: absolute;
-            left: 11%;
-            width: 75vw;
-            height: 400px;
-           }
-           main{
-            position: absolute;
-            top: 490px;
-            width: 100vw;
-            height: auto;
-            text-align: center;
-           
-            }
-           
-           td#delivery{
-            position: absolute;
-            left: 38%;
-            top: 40%;
-           }
-           td#sobrenos{
-            position: absolute;
-            left: 57%;
-            top: 40%;
-           }
-           td#nossoespaço{
-            position: absolute;
-            left: 81%;
-            top: 40%;
-           }
-         a#whatsapp{
-            position: absolute;
-            top: 20%;
-            left: 15%;
-         }
-         div#contato{
-            left: 78%;
-            font-size: 0.6em;
-            text-align: center;
-        }
-        p#descriçaocafé{
-            position: absolute;
-            font-size: 1.6em;
-            left: 7%;
-            top:-4%;
-            width: 80vw;
-            text-align: justify;
-        }
-        a#titulocafé{
-            position:absolute;
-            font-size: 2em;
-            white-space: nowrap;
-            left: 75%;
-            top: -12%;
-            text-align: justify;
-        }
-        a#tituloalmoço{
-            position: absolute;
-            left: 75%;
-            top: 130%;
-            font-size: 2em;
-        }
-        a#titulopizza{
-            position: absolute;
-            left: 78%;
-            text-align: justify;
-            top: 285%;
-            font-size: 2em;
-        }
-        p#descriçaoalmoço{
-            position: absolute;
-            font-size:1.6em ;
-            left: 3%;
-            top: 680px;
-            width: 80vw;
-            height: 480px;
-            text-align: justify;
-        }
-        p#descriçaopizza{
-            position: absolute;
-            font-size:1.6em ;
-            left: -2%;
-            top: 1420px;
-            width: 80vw;
-            height: 480px;
-            text-align: justify;
-        }
-        img#cafemanhaprincipal{
-            position: absolute;
-            top: 320px;
-            width: 360px;
-            height: 430px;
-            left: 30%;
-            border-radius: 2%;
-        }
-        img#almoço{
-            position: absolute;
-            top: 1000px;
-            width: 360px;
-            height:420px;
-            left: 30%;
-            border-radius: 2%;
-        }
-        img#pizza{
-            position: absolute;
-            top: 1670px;
-            width: 360px;
-            height: 420px;
-            left: 30%;
-            border-radius: 2%;
-        }
-        div#Fundodecardapio{
-            position: absolute;
-            width: 97vw;
-            left: 1%;
-            height: 2180px;
-            border-radius: 3%;
-            background-image: linear-gradient(to top, white, #e9e6e6);
-        }
-        footer{
-            position: absolute;
-            top: 2680px;
-        }
-        }
-
+    
 
         @media screen and (min-width: 600px)and (max-width: 768px) {
             *{
@@ -615,120 +483,58 @@ footer{
                 padding: 0%; 
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
-           
-               
-        
-               
-    
-               
-               td#delivery{
-                position: absolute;
-                left: 38%;
-                top: 40%;
-               }
-               td#sobrenos{
-                position: absolute;
-                left: 57%;
-                top: 40%;
-               }
-               td#nossoespaço{
-                position: absolute;
-                left: 81%;
-                top: 40%;
-               }
-             a#whatsapp{
-                position: absolute;
-                top: 20%;
-                left: 15%;
-             }
-             div#contato{
-                left: 78%;
-                font-size: 0.6em;
-                text-align: center;
+            .font{
+                font-size: 1.5em;
             }
-            p#descriçaocafé{
-                position: absolute;
-                font-size: 1.6em;
-                left: 7%;
-                top:-4%;
-                width: 80vw;
-                text-align: justify;
+            table#menu{
+                font-size: 1em;
             }
             a#titulocafé{
-                position:absolute;
-            font-size: 2em;
-            white-space: nowrap;
-            left: 50%;
-            top: -12%;
-            text-align: justify;
+    
+                font-size: 2.5em;
+                
+                }
+            div#cafedamanha{
+                position: absolute;
+                top: 150px;
+                width: 500px;
+                 height: 580px;
+                 border-radius: 2%;
+                 left: 50%;
+             transform: translate(-50%);
+                    
             }
             a#tituloalmoço{
+               
+                font-size: 2.5em;
+            }
+        
+            div#almoço{
                 position: absolute;
+                top: 900px;
+                width: 500px;
+                 height: 580px;
+                border-radius: 2%;
                 left: 50%;
-                top: 640px;
-                font-size: 2em;
+                transform: translate(-50%);
+                
             }
             a#titulopizza{
-                position: absolute;
-                left: 50%;
-                text-align: justify;
-                top: 1410px;
-                font-size: 2em;
+                font-size: 2.5em;
             }
-            p#descriçaoalmoço{
+            div#pizza{
                 position: absolute;
-                font-size:1.6em ;
-                left: 1%;
-                top: 680px;
-                width: 80vw;
-                height: 480px;
-                text-align: justify;
+                top: 91px;
+                width: 500px;
+                height: 580px;
+                 border-radius: 2%;
+                 left: 50%;
+             transform: translate(-50%);
+                 text-align: center;
             }
-            p#descriçaopizza{
-                position: absolute;
-                font-size:1.6em ;
-                left: -2%;
-                top: 1450px;
-                width: 80vw;
-                height: 480px;
-                text-align: justify;
-            }
-            img#cafemanhaprincipal{
-                position: absolute;
-                top: 370px;
-                width: 360px;
-                height: 430px;
-                left: 25%;
-                border-radius: 2%;
-            }
-            img#almoço{
-                position: absolute;
-                top: 1080px;
-                width: 360px;
-                height:420px;
-                left: 25%;
-                border-radius: 2%;
-            }
-            img#pizza{
-                position: absolute;
-                top: 1730px;
-                width: 360px;
-                height: 420px;
-                left: 25%;
-                border-radius: 2%;
-            }
-            div#Fundodecardapio{
-                position: absolute;
-                width: 98vw;
-                left: 1%;
-                height: 2180px;
-                border-radius: 3%;
-                background-image: linear-gradient(to top, white, #e9e6e6);
-            }
-            footer{
-                position: absolute;
-                top: 2680px;
-            }
+    
+               
+               
             }
     
 
