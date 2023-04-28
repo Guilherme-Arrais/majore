@@ -89,6 +89,7 @@ a#instagram{
         top: 56px;
         left: 50%;
         transform: translate(-50%);
+        overflow: hidden;
         width: 87vw;
         height: 410px;
         margin: 20px auto;
@@ -232,18 +233,18 @@ a#instagram{
 }
 td#delivery{
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 40%;
     
    }
    td#sobrenos{
     position: absolute;
-    left: 64%;
+    left: 58%;
     top: 40%;
    }
    td#nossoespaço{
     position: absolute;
-    left: 85%;
+    left: 77%;
     top: 40%;
    }
  a#whatsapp{
