@@ -1,13 +1,19 @@
+@font-face {
+    font-family: "Evogria";
+    src: url('Evogria.otf') format("opentype");
+    font-weight:normal;
+    font-style: normal;
+}
 *{
     margin: 0%;
     padding: 0%; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Evogria", Times, serif;
 }
-
 body, html{
     background-color: rgb(83, 82, 82);
 width: 100vw;
 height: 100vh;
+
     
 }
 main{
@@ -26,7 +32,7 @@ main{
         background-color:   #d8b103;
     }
     a{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
         color: rgb(17, 17, 19);
         text-decoration: none;/*tira a linha debaixo do link*/
     }
@@ -46,7 +52,7 @@ table#menu{
     width: 99vw;
     height: 60px;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.6em;
     background-color: #d8b103;
     border-radius: 2%;
 }
@@ -153,22 +159,22 @@ a#instagram{
 
 
 .font{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 td#delivery{
     position: absolute;
-    left: 35%;
+    left: 45%;
     top: 40%;
     
    }
    td#sobrenos{
     position: absolute;
-    left: 52%;
+    left: 69%;
     top: 40%;
    }
    td#nossoespaço{
     position: absolute;
-    left: 75%;
+    left: 95%;
     top: 40%;
    }
  a#whatsapp{
@@ -310,17 +316,17 @@ footer{
        
        td#delivery{
         position: absolute;
-        left: 58%;
+        left: 68%;
         top: 40%;
        }
        td#sobrenos{
         position: absolute;
-        left: 72%;
+        left: 84%;
         top: 40%;
        }
        td#nossoespaço{
         position: absolute;
-        left: 87%;
+        left: 120%;
         top: 40%;
        }
      a#whatsapp{
@@ -425,7 +431,7 @@ footer{
             *{
                 margin: 0%;
                 padding: 0%; 
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                
             }
             .font{
                 font-size: 1.5em;
