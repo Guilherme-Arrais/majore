@@ -206,35 +206,35 @@ a#tituloalmoço{
     position: absolute;
     left: 50%;
 transform: translate(-50%);
-top:-40%;
     font-size: 1.5em;
+    top: -22%;
 }
 a#titulopizza{
     position: absolute;
     left: 50%;
 transform: translate(-50%);
     text-align: justify;
-    top: 1200px;
+    top: 1420px;
     font-size: 1.5em;
 }
 p#descriçaoalmoço{
    
     position: absolute;
-    top: -30%;
+    top: -10%;
     text-align: justify;
 }
 p#descriçaopizza{
     position: absolute;
     left: 50%;
 transform: translate(-50%);
-    top: 1250px;
+    top: 1480px;
     width: 80vw;
     height: 480px;
     text-align: justify;
 }
 img#cafemanhaprincipal{
     position: absolute;
-    top: 320px;
+    top: 423px;
     width: 270px;
     height: 350px;
     left: 50%;
@@ -244,7 +244,7 @@ transform: translate(-50%);
 }
 img#almoço{
     position: absolute;
-    top: 920px;
+    top: 1130px;
     width: 270px;
     height: 350px;
     left: 50%;
@@ -253,7 +253,7 @@ transform: translate(-50%);
 }
 img#pizza{
     position: absolute;
-    top: 1530px;
+    top: 1800px;
     width: 270px;
     height: 350px;
     left: 50%;
@@ -279,12 +279,161 @@ footer{
 }                 
 
 
+@media screen and (min-width: 1501px)and (max-width: 2300px) {
+    html,body{
+        height: 100vh;
+        width: 100vw;
+    }
+    table#menu{
+      
+        font-size: 1em;
+       }
+       .font{
+        font-size: 2em;
+       }
+       .efeitobotao:hover{
+        background-color: #584e22;
+       }
+       img#img1{ 
+        background-image: url(insta.png);
+        
+        
+      }
+      iframe#iframe{
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 95vw;
+        height: 600px;
+        border-radius: 3%;
+      }
+       main{
+        position: absolute;
+        top: 78%;
+        width: 100vw;
+        height: 300px;
+        text-align: center;
+       
+        }
+       
+       td#delivery{
+        position: absolute;
+        left: 68%;
+        top: 40%;
+       }
+       td#sobrenos{
+        position: absolute;
+        left: 84%;
+        top: 40%;
+       }
+       td#nossoespaço{
+        position: absolute;
+        left: 120%;
+        top: 40%;
+       }
+     a#whatsapp{
+        position: absolute;
+        top: 20%;
+        left: 7%;
+     }
+     div#contato{
+        left: 78%;
+        font-size: 0.6em;
+        text-align: center;
+    }
+    a#titulocafé{
+        position: absolute;
+        left: -64%;
+        top: -8%;
+        font-size: 3em;
+    }
+    p#descriçaocafé{
+        position: absolute;
+        left: -140%;
+        top: 8%;
+        width: 400px;
+        height: 480px;
+        text-align: justify;
+    }
+    a#tituloalmoço{
+        position: absolute;
+        left: 170%;
+        top: -42%;
+        font-size: 3em;
+    }
+    p#descriçaoalmoço{
+        position: absolute;
+        left: 108%;
+        top: -24%;
+        width: 400px;
+        height: 480px;
+        text-align: justify;
+    }
+    a#titulopizza{
+        position: absolute;
+        left: -62%;
+        top: 260%;
+        font-size: 3em;
+    }
+    p#descriçaopizza{
+        position: absolute;
+        width: 400px;
+        height: 480px;
+       left: -65%;
+        top: 277%;
+        text-align: justify;}
+    
+    
+    img#cafemanhaprincipal{
+        position: absolute;
+        top: 135px;
+        width: 420px;
+        height: 480px;
+        left: 71%;
+        border-radius: 2%;
+    }
+    img#almoço{
+        position: absolute;
+        top: 255%;
+        width: 420px;
+        height: 480px;
+        left: 30%;
+        border-radius: 2%;
+    }
+    img#pizza{
+        position: absolute;
+        top: 450%;
+        width: 420px;
+        height: 480px;
+        left: 70%;
+        border-radius: 2%;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 0%;
+        height: 0%;
+    }                 
+    div#Fundodecardapio{
+        position: absolute;
+        width: 98vw;
+        left: 1%;
+        height: 1980px;
+        border-radius: 3%;
+        background-image: linear-gradient(to top, white, #e9e6e6);
+    }
+    footer{
+        position: absolute;
+        top: 390%;
+    }
+    }
+ 
+    
 
 
 
 
-
-@media screen and (min-width: 992px)and (max-width: 2300px) {
+@media screen and (min-width: 992px)and (max-width: 1500px) {
     html,body{
         height: 100vh;
         width: 100vw;
@@ -392,7 +541,7 @@ footer{
     }
     img#almoço{
         position: absolute;
-        top: 240%;
+        top: 255%;
         width: 420px;
         height: 480px;
         left: 26%;
