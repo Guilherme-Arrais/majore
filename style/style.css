@@ -26,7 +26,7 @@ main{
     }
     footer{
         position: absolute;
-        top: 2370px;
+        top: 2070px;
         width: 100vw;
         height: 70px;
         background-color:   #d8b103;
@@ -39,7 +39,7 @@ main{
 
 nav#menu{
     position: absolute;
-    height: 75px;
+    height: 70px;
     width: 100vw;
     background-color: rgb(83, 82, 82);
     
@@ -279,7 +279,7 @@ footer{
 }                 
 
 
-@media screen and (min-width: 1501px)and (max-width: 2300px) {
+@media screen and (min-width: 1501px)and (max-width: 6000px) {
     html,body{
         height: 100vh;
         width: 100vw;
@@ -344,7 +344,7 @@ footer{
     }
     a#titulocafé{
         position: absolute;
-        left: -64%;
+        left: -67%;
         top: -8%;
         font-size: 3em;
     }
@@ -358,13 +358,13 @@ footer{
     }
     a#tituloalmoço{
         position: absolute;
-        left: 170%;
+        left: 175%;
         top: -42%;
         font-size: 3em;
     }
     p#descriçaoalmoço{
         position: absolute;
-        left: 108%;
+        left: 111%;
         top: -24%;
         width: 400px;
         height: 480px;
@@ -372,7 +372,7 @@ footer{
     }
     a#titulopizza{
         position: absolute;
-        left: -62%;
+        left: -65%;
         top: 260%;
         font-size: 3em;
     }
@@ -380,7 +380,7 @@ footer{
         position: absolute;
         width: 400px;
         height: 480px;
-       left: -65%;
+       left: -68%;
         top: 277%;
         text-align: justify;}
     
@@ -424,7 +424,10 @@ footer{
     }
     footer{
         position: absolute;
-        top: 390%;
+        top: 2070px;
+        width: 100vw;
+        height: 70px;
+        background-color:   #d8b103;
     }
     }
  
