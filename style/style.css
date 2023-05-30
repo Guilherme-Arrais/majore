@@ -271,6 +271,8 @@ div#Fundodecardapio{
 footer{
     position: absolute;
     top: 2680px;
+    text-align: center;
+    font-size: 0.7em;
 }
 
 ::-webkit-scrollbar{
